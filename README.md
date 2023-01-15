@@ -30,3 +30,5 @@ let g:sandwich#recipes += [
 \ },
 \ ]
 ```
+
+See: [sandwich, textobjでGenericsを扱う](https://scrapbox.io/vim-jp/sandwich,_textobj%E3%81%A7Generics%E3%82%92%E6%89%B1%E3%81%86)
