@@ -20,6 +20,8 @@ xnoremap <silent> <Plug>(textobj-generics-innerparen-i) :<C-u>call textobj#funct
 onoremap <silent> <Plug>(textobj-generics-innerparen-a) :<C-u>call textobj#functioncall#ap('o', g:textobj_generics_patterns)<CR>
 xnoremap <silent> <Plug>(textobj-generics-innerparen-a) :<C-u>call textobj#functioncall#ap('x', g:textobj_generics_patterns)<CR>
 
+let g:loaded_textobj_generics = 1
+
 if exists('g:textobj_generics_no_default_key_mappings') | finish | endif
 
 if !hasmapto('<Plug>(textobj-generics-i)')
@@ -31,5 +33,3 @@ if !hasmapto('<Plug>(textobj-generics-a)')
   silent! omap <unique> ag <Plug>(textobj-generics-a)
   silent! xmap <unique> ag <Plug>(textobj-generics-a)
 endif
-
-let g:loaded_textobj_generics = 1
