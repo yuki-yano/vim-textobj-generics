@@ -23,7 +23,7 @@ let g:sandwich#recipes += [
 \   'input': ['g']
 \ },
 \ {
-\   'external': ['i<', "\<Plug>(textobj-functioncall-generics-a)"],
+\   'external': ['i<', "\<Plug>(textobj-generics-a)"],
 \   'noremap': 0,
 \   'kind': ['delete', 'replace', 'query'],
 \   'input': ['g']
